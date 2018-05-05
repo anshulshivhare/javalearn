@@ -10,9 +10,10 @@ public class TestLamdaCode {
     @Test
     public void testLamdTest() {
     
-        
         String actualString= LamdaTest.test((a->a + " " + "anshul"));
         Assert.assertEquals("ans anshul",actualString);
+        
+        
         
     }
 }
